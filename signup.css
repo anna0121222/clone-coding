@@ -50,6 +50,7 @@ div{
 *, ::after, ::before{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 a{
     background-color: transparent;
@@ -144,7 +145,15 @@ button.marketbutton{
     line-height: 1.33;
     letter-spacing: normal;
     cursor: pointer;
-    
+}
+.marketbutton:not(:last-of-type):after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    margin-top: 5px;
+    margin-left: 11px;
+    background-color: #e2e2e2;
 }
 button.beautybutton{
     margin-left: 22px;
@@ -586,4 +595,199 @@ div.phoneinput{
     position: relative;
     font-size: 16px;
     margin-left: 12px;
+}
+.birthcontainer{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+    padding: 0px 15px;
+}
+.birthlan{
+    padding-bottom: 0px;
+}
+.birthline{
+    height: 100%;
+}
+.birthinputcontainer{
+    position: relative;
+    height: 40px;
+}
+.birthlan input{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
+.birthinput{
+    width: 100%;
+    height: 40px;
+    padding: 0px 11px 1px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: rgb(51, 51, 51);
+    outline: none;
+    box-sizing: border-box;
+}
+.birthline::after{
+    content: "/";
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    line-height: 40px;
+}
+.invitefriend{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.invitefriends>label>span{
+    font-size: 14px;
+}
+.inputdongui{
+    padding: 0px;
+}
+.donuicontainer{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+}
+.donguilist{
+    display: flex;
+    padding: 8px 0px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.donguilist:first-of-type{
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 12px;
+}
+.donguibutton{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: top;
+    line-height: normal;
+    color: rgb(51, 51, 51);
+    padding: 0px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.littletext{
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    padding-top: 4px;
+    padding-left: 36px;
+}
+.checkbox{
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0px, 0px, 0px, 0px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+}
+input[type=checkbox]{
+    box-sizing: border-box;
+    padding: 0;
+}
+.donguibox{
+    margin-right: 12px;
+}
+.donguibox svg{
+    vertical-align: middle;
+}
+.donguicontainer{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+}
+.donguiwrap{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.donguilabel{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: top;
+    line-height: normal;
+    color: rgb(51, 51, 51);
+    padding: 0px;
+    font-size: 14px;
+}
+.donguipilsoo{
+    padding-left: 5px;
+    color: rgb(153, 153, 153);
+    word-break: keep-all;
+}
+.donguiterms{
+    padding-right: 22px;
+    color: rgb(95, 0, 128);
+    letter-spacing: 0px;
+}
+.donguiterms::after{
+    content: "";
+    display: inline-block;
+    margin-left: 4px;
+    width: 6px;
+    height: 9px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjExIiB2aWV3Qm94PSIwIDAgNiAxMSI+CiAgICA8cGF0aCBmaWxsPSIjNUYwMDgwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xIDExTDYgNS41IDEgMCAwIDEuMSA0IDUuNSAwIDkuOXoiLz4KPC9zdmc+Cg==) 50% 50% / 6px 9px no-repeat;
+}
+.donguiwrap2{
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 24px;
+}
+.donguiemail{
+    padding: 14px 60px 9px 0px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: top;
+    line-height: normal;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+.donguiemail{
+    padding: 14px 60px 9px 0px;
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    vertical-align: top;
+    line-height: normal;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+.donguilist2{
+    display: flex;
+    padding: 8px 0px;
+    flex-direction: column;
+}
+.singnupbutton{
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 240px;
+    height: 56px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 0, 128);
+    border: 0px none;
 }

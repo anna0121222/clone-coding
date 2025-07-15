@@ -68,3 +68,20 @@ css-mgd87h et8nqc31: gendernonetext
 css-5xw1m2 e2sqze61:gendernoneoo
 css-1vic0rk e2sqze60:gendernoneo
 css-18n8lnw e1ke3ehm1: birthcontainer
+css-1dkwuq4 e1uzxhvi6: birthlan
+css-5lnvt6 e1ke3ehm0: birthline
+css-xsmgyi e1uzxhvi3: birthinputcontainer
+css-151eme7 e1uzxhvi2: birthinput
+css-14wodj6 eccfjof0: invitefriends
+css-2yzr8b e744wfw6: donguicontainer
+css-ov2xfu e1n9e0zv6: donguilist
+css-msja7w e1dcessg3: donguibutton
+css-nygcgj e1n9e0zv5: littletext
+css-agvwxo e1dcessg2: checkbox
+css-79hxr7 e1dcessg1: donguibox
+css-s5xdrg e1n9e0zv3: donguiwrap
+css-1mjkje9 e1dcessg3: donguilabel
+css-64z8en e1n9e0zv4: donguipilsoo
+css-7chi73 e1n9e0zv2: donguiterms
+css-1qsjbts e1n9e0zv1: dongwrap2
+css-18m884r e4nu7ef3: singnupbutton
