@@ -15,9 +15,19 @@ ol, ul {
     list-style: none;
 }
 
+img, video {
+    max-width: 100%;
+}
+
 *, :after, :before {
     box-sizing: border-box;
     margin: 0;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -487,6 +497,38 @@ div .bottom-right-detail {
     color: #5f0080;
 }
 
+/* 내용 */
+
+div .content {
+    width: 100%;
+    position: relative;
+}
+
+div .content-side-all {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    bottom: -216px;
+    z-index: 1;
+    margin-top: 216px;
+}
+
+div .content-side {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+    letter-spacing: -0.3px;
+}
+
+div .content-side01 {
+    height: 120px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
 
 
 
@@ -495,6 +537,45 @@ div .bottom-right-detail {
 
 
 
+
+
+div .content-side02 {
+    width: 80px;
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(221, 221, 221);
+    border-right-color: rgb(221, 221, 221);
+    border-left-color: rgb(221, 221, 221);
+    border-image: initial;
+    border-bottom-style: initial;
+    border-bottom-color: initial;
+    background-color: rgb(255, 255, 255);
+}
+
+a div.side02-list {
+    height: 29px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+div a div span.side02-list-span {
+    color: rgb(51, 51, 51);
+}
+
+
+
+div .content-side03 {
+    margin-top: 8px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 500;
+}
 
 
 
@@ -666,6 +747,34 @@ div ul a.right-list02-icons {
     height: 30px;
     margin-right: 10px;
 }
+
+div .footer-top02 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 26px 0px 33px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+div button.top02-button {
+    display: flex;
+    text-align: left;
+}
+
+div button img.top02-button-image {
+    width: 34px;
+    margin-right: 10px;
+}
+
+div button p.top02-button-p {
+    font-size: 10px;
+    line-height: 14.5px;
+    color: rgb(153, 153, 153);
+    word-break: break-word;
+}
+
+
+
+
 
 
 
