@@ -28,6 +28,11 @@ button {
     border-radius: 0;
     overflow: visible;
     cursor: pointer;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
 }
 
 body, html {
@@ -154,7 +159,6 @@ body, button, input, select, textarea {
     line-height: 1.33;
     letter-spacing: normal;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .active-kurly.active {
@@ -185,7 +189,6 @@ body, button, input, select, textarea {
     letter-spacing: normal;
     color: rgb(181, 181, 181);
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .nonactive-kurly:hover {
@@ -588,7 +591,7 @@ body, button, input, select, textarea {
     flex-direction: column;
 }
 
-.kakao-inquiry {
+.kakao-inquiry, .onebyone-inquiry, .manyorder-inquiry {
     display: flex;
     flex-direction: row;
 }
@@ -603,12 +606,131 @@ body, button, input, select, textarea {
     text-align: center;
     margin-right: 16px;
     margin-bottom: 16px;
-    background-color: white;
 }
 
-.kakao-inquiry-openday-text {
+.onebyone-inquiry-btn, .manyorder-inquiry-a {
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.kakao-inquiry-text, .onebyone-inquiry-text, .manyorder-inquiry-text {
     margin-top: 2px;
     color: rgb(153, 153, 153);
     letter-spacing: -0.5px;
     line-height: 16.8px;
+}
+
+.inquiry-bar-wrap {
+    margin: 0px 6px;
+}
+
+.nonmember-inquiry {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+}
+
+.company-introduction {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-introduction-bar {
+    display: flex;
+    width: 100%;
+    padding-bottom: 29px;
+}
+
+.company-introduction-list {
+    margin-left: 14px;
+}
+
+.company-introduction-list:first-of-type {
+    margin-left: 0px;
+}
+
+.company-introduction-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.about-kurly {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 40px;
+}
+
+.about-kurly-line {
+    padding-left: 4px;
+}
+
+.about-kurly-line::after {
+    content: "|";
+    padding-right: 4px;
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.about-kurly-check {
+    margin-left: 3px;
+    color: rgb(95, 0, 128);
+}
+
+.footer-icon-list {
+    display: flex;
+}
+
+.footer-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.underline-bar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 26px 0px 33px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+.certification-logo-btn, .woribank-logo-btn {
+    display: flex;
+    text-align: left;
+}
+
+.certification-logo, .woribank-logo {
+    width: 34px;
+    margin-right: 10px;
+}
+
+.certification-text, .woribank-text {
+    font-size: 10px;
+    line-height: 14.5px;
+    color: rgb(153, 153, 153);
+    word-break: break-word;
+}
+
+.allrightreserved {
+    padding: 20px 0px 30px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    color: rgb(153, 153, 153);
+}
+
+.allrightreserved-text {
+    display: block;
+    padding-top: 7px;
+    font-style: normal;
 }
