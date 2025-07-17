@@ -1,10 +1,6 @@
 @font-face {
-    font-family: Pretendard;
+    font-family: 'Noto Sans KR','malgun gothic','AppleGothic','dotum',sans-serif;
     src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
-}
-
-* {
-    font-family: Pretendard;
 }
 
 *, :after {
@@ -22,6 +18,7 @@ a {
 body {
     line-height: 1;
     background-color: #fff;
+    font-family: 'Noto Sans KR','malgun gothic','AppleGothic','dotum',sans-serif;
 }
 
 button {
@@ -117,11 +114,6 @@ body, button, input, select, textarea {
     position: relative;
 }
 
-.topmenu-service {
-    display: block;
-    cursor: pointer;
-}
-
 .service-center {
     width: 8px;
     height: 5px;
@@ -131,6 +123,37 @@ body, button, input, select, textarea {
     display: inline-block;
     margin-left: 5px;
     margin-bottom: 1px;
+}
+
+.service-center-list {
+    position: absolute;
+    z-index: 320;
+    right: 0px;
+    top: 34px;
+    width: 130px;
+    padding: 3px 9px;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);   
+}
+
+.service-center-list-text {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.topmenu-service {
+    display: block;
+    cursor: pointer;
+}
+
+.topbar-service .menu {
+    display: none;
+}
+
+.topbar-service:hover .menu {
+    display: block;
 }
 
 .topmainbar {
