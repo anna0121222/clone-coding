@@ -1107,6 +1107,10 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
+button[disabled], input[disabled] {
+    cursor: default;
+}
+
 body {
     margin: 0;
     -webkit-touch-callout: none;
@@ -2053,6 +2057,179 @@ section div li dd article.list-dd-article {
     border-bottom: 1px solid rgb(244, 244, 244);
 }
 
+section div li dd article div.dd-article-name {
+    position: relative;
+    padding-right: 26px;
+}
+
+section div li dd article div p.dd-aname-p {
+    line-height: 16px;
+    color: rgb(51, 51, 51);
+    overflow-wrap: break-word;
+}
+
+section div li dd article div.dd-article-count {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+section div li dd article div.dd-article-count01 {
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border: 1px solid rgb(221, 223, 225);
+    width: 88px;
+    border-radius: 3px;
+
+    font-weight: 600;
+}
+
+section div li dd article div button.ddac01-button01 {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    border: none;
+    font-size: 1px;
+    color: transparent;
+    background-size: cover;
+    background-color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMCAxNHYySDEwdi0yeiIgZmlsbD0iI0RERCIgZmlsbC1ydWxlPSJub256ZXJvIi8+Cjwvc3ZnPgo=);
+    vertical-align: top;
+}
+
+section div li dd article div.ddac01-middle {
+    display: inline-flex;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    width: 31px;
+    height: 28px;
+    line-height: 28px;
+}
+
+section div li dd article div button.ddac01-button02 {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    border: none;
+    font-size: 1px;
+    color: transparent;
+    background-size: cover;
+    background-color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xNiAxMHY0aDR2MmgtNHY0aC0ydi00aC00di0yaDR2LTRoMnoiIGZpbGw9IiMzMzMiIGZpbGwtcnVsZT0ibm9uemVybyIvPgo8L3N2Zz4K);
+    vertical-align: top;
+}
+
+section div li dd article div.dd-article-count02 {
+    padding-top: 4px;
+}
+
+section div li dd article div span.ddac02-span-left {
+    margin-right: 4px;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(181, 181, 181);
+    text-decoration: line-through;
+}
+
+section div li dd article div span.ddac02-span-right {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    padding-right: 4px;
+}
+
+section div li dd article div.dd-article-bottom {
+    height: 16px;
+}
+
+section div.total-price-area {
+    padding-top: 30px;
+}
+
+section div.total-price {
+    letter-spacing: -0.5px;
+}
+
+section div.total-price-blank {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+}
+
+section div span.total-price-span01 {
+    padding-right: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333;
+    line-height: 20px;
+}
+
+section div span.total-price-span02 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #333;
+    line-height: 36px;
+}
+
+section div span.total-price-span03 {
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    line-height: 30px;
+}
+
+section div.select-complete {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+section div button.select-complete-button {
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 56px;
+    height: 56px;
+    border-radius: 3px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 div .content-page-footer {
@@ -2237,14 +2414,6 @@ div button p.top02-button-p {
     color: rgb(153, 153, 153);
     word-break: break-word;
 }
-
-
-
-
-
-
-
-
 
 
 
