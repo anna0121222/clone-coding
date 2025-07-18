@@ -280,10 +280,50 @@ epzddad1
 css-1k8t52o : select-list-dd
 epzddad0
 
+css-1gt07jj : dd-article-name
+
+css-1ggt91q : dd-aname-p
+
+css-s8am96 : dd-article-count
+
+css-nx0orh : dd-article-count01
+e1cqr3m40
+
+css-1e90glc : ddac01-button01
+e1hx75jb0
+
+css-18y6jr4 : ddac01-button02
+e1hx75jb0
+
+css-1jzvrpg : dd-article-count02
+
+css-fburr9 : ddac02-span-left
+
+css-gqkxk8 : ddac02-span-right
+
+css-6jwybp : dd-article-bottom
 
 
-css-9y0nwt : total-price
+css-9y0nwt : total-price-area
 e17iylht0
+
+css-ixlb9s : total-price
+eebc7rx4
+
+css-yhijln : total-price-blank
+eebc7rx3
+
+css-3z91zj : select-complete-button
+e4nu7ef3
+
+
+
+
+
+
+
+
+
 
 css-gnxbjx : select-complete
 e10vtr1i2
