@@ -667,3 +667,26 @@ html, body, span, div, button, input, label, select, option, textarea {
     height: 80px;
     margin: 2px 0px;
 }
+.contant01-22{
+    overflow: hidden;
+    border-radius: 4px;
+}
+.contant01-23{
+    position: relative;
+    width: 100%;
+}
+.contant01-24{
+    position: absolute;
+    inset: 0px;
+}
+.contant01-25{
+    color: var(--kpds_ldmw176o);
+    width: 100%;
+    height: 32px;
+    display: flex
+;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
